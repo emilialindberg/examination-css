@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     background-color: rgb(248, 241, 241);
     max-width: 100%;
+    margin: 0;
     justify-content: center;
     align-items: center;
 }
@@ -257,7 +258,7 @@ article {
 
 .card-date {  
     font-weight: bold;
-    white-space: nowrap; 
+    white-space: nowrap;
     margin-right: 10px;
 }
 
@@ -557,6 +558,6 @@ footer-btn a {
     }
 
     wrapper {
-        max-width: 100%;
+        min-width: 100% !important;
     }
 }
